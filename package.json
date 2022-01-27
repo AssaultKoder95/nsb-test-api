@@ -1,0 +1,27 @@
+{
+  "name": "nsb-test-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch-code": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssaultKoder95/nsb-test-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssaultKoder95/nsb-test-api/issues"
+  },
+  "homepage": "https://github.com/AssaultKoder95/nsb-test-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}

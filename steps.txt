@@ -1,0 +1,7 @@
+git clone <your repo link>
+git checkout -b implement-first-api
+npm init --yes
+npm i mongoose express nodemon 
+// create a file called .gitignore
+// add the following content to it
+node_modules/**
